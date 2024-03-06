@@ -8,7 +8,7 @@ module "nodes_next" {
 
   instance_type  = "m5.large"
   instance_types = ["m6i.large", "m5d.large", "m5.large"]
-  ami_name       = "aeternity-ubuntu-22.04-v1705404634"
+  ami_name       = "aeternity-ubuntu-22.04-v1709639419"
 
   root_volume_size        = 20
   additional_storage      = true
@@ -39,7 +39,7 @@ module "mdw_next" {
 
   instance_type  = "t3.large"
   instance_types = ["t3.large", "c5.large", "m5.large"]
-  ami_name       = "aeternity-ubuntu-22.04-v1705404634"
+  ami_name       = "aeternity-ubuntu-22.04-v1709639419"
 
   root_volume_size        = 20
   additional_storage      = true
