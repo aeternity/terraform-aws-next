@@ -1,5 +1,5 @@
 module "nodes_next" {
-  source            = "github.com/aeternity/terraform-aws-aenode-deploy?ref=v3.1.0"
+  source            = "github.com/aeternity/terraform-aws-aenode-deploy?ref=v3.4.0"
   env               = "next"
 
   static_nodes   = 1
@@ -30,7 +30,7 @@ module "nodes_next" {
 }
 
 module "mdw_next" {
-  source            = "github.com/aeternity/terraform-aws-aenode-deploy?ref=v3.1.0"
+  source            = "github.com/aeternity/terraform-aws-aenode-deploy?ref=v3.4.0"
   env               = "next"
 
   static_nodes   = 1
