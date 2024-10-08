@@ -1,5 +1,5 @@
 module "nodes_next" {
-  source            = "github.com/aeternity/terraform-aws-aenode-deploy?ref=v3.4.0"
+  source            = "github.com/aeternity/terraform-aws-aenode-deploy?ref=v4.0.0"
   env               = "next"
 
   static_nodes   = 1
@@ -30,7 +30,7 @@ module "nodes_next" {
 }
 
 module "mdw_next" {
-  source            = "github.com/aeternity/terraform-aws-aenode-deploy?ref=v3.4.0"
+  source            = "github.com/aeternity/terraform-aws-aenode-deploy?ref=v4.0.0"
   env               = "next"
 
   static_nodes   = 1
@@ -66,7 +66,7 @@ module "mdw_next" {
 }
 
 module "lb_next_stockholm" {
-  source                    = "github.com/aeternity/terraform-aws-api-loadbalancer?ref=v1.6.0"
+  source                    = "github.com/aeternity/terraform-aws-api-loadbalancer?ref=v2.0.0"
   env                       = "next"
   fqdn                      = var.lb_fqdn
   dns_zone                  = var.dns_zone
